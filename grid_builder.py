@@ -20,7 +20,7 @@ for a in params_a:
 w, h = all_images[0][0].size
 I = len(all_images)
 J = len(all_images[0])
-grid = np.array((I*h, J*w, 3))
+grid = np.zeros((I*h, J*w, 3), dtype=np.uint8)
 for i in range(I):
   for j in range(J):
     grid[i*h:(i + 1)*h, j*w:(j + 1)*w, :] = np.array(all_images[i][j])
