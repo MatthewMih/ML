@@ -5,3 +5,6 @@ Welcome to your ultimate cheat sheet for machine learning and data science! This
 Expect concise, reusable pieces of code that handle common tasks like data wrangling, feature engineering, evaluation metrics, and even quick deployment tips. Whether you’re a beginner looking for practical examples or an experienced ML practitioner in need of a quick solution, this repository has you covered.
 
 And yes, in case you were wondering, this description was crafted with a little (total) help from ChatGPT—because why not automate the boring stuff?
+
+-------------------------
+1. [Grid builder](https://github.com/MatthewMih/ML/blob/main/grid_builder.py) -- a simple template for building a grid of images to find the best generation parameters
